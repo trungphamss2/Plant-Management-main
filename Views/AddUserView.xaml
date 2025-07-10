@@ -1,0 +1,139 @@
+﻿<UserControl x:Class="PlantManagement.Views.AddUserView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="600" d:DesignWidth="1168" Background="Snow">
+    <Grid>
+        <!-- Định nghĩa 2 dòng trong grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Dòng cho nút quay lại -->
+            <RowDefinition Height="*"/>
+            <!-- Dòng cho form -->
+        </Grid.RowDefinitions>
+
+        <!-- Nút Quay lại ở góc trái, trong dòng đầu tiên -->
+        <Button x:Name="BackButton" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Width="50" Height="40" 
+                Margin="10,10,0,0" 
+                Background="Transparent"
+                BorderBrush="Transparent" 
+                Click="BackButton_Click" 
+                Grid.Row="0">
+            <Image Source="D:\Downloads\Plant-Management-main (2)\Plant-Management-main\Images\pngtree-back-icon-arrow-photo-png-image_13614689-removebg-preview.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+
+        <!-- Các phần tử còn lại của form, trong dòng thứ 2 -->
+        <StackPanel Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
+            <!-- Tiêu đề -->
+            <TextBlock Text="Thêm Người Dùng Mới" 
+                       FontSize="25" FontWeight="Bold" 
+                       HorizontalAlignment="Center" Margin="70,0,0,40"/>
+
+            <!-- Tên đăng nhập -->
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Tên đăng nhập" 
+                           FontSize ="15"
+                           VerticalAlignment="Center" 
+                           HorizontalAlignment="Left" 
+                           Margin="5,0,0,0"/>
+                <TextBox x:Name="UsernameTextBox" 
+                         Grid.Column="1" 
+                         Margin="10,0,0,0"
+                         HorizontalAlignment="Left"
+                         Width="250"/>
+            </Grid>
+
+            <!-- Họ và tên -->
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Họ và tên" 
+                            FontSize ="15"
+                           VerticalAlignment="Center" 
+                           HorizontalAlignment="Left" 
+                           Margin="5,0,0,0"/>
+                <TextBox x:Name="FullNameTextBox" 
+                         Grid.Column="1" 
+                         Margin="43.5,0,0,0"
+                         HorizontalAlignment="Left"
+                         Width="250"/>
+            </Grid>
+
+            <!-- Mật khẩu -->
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Mật khẩu" 
+                            FontSize ="15"
+                           VerticalAlignment="Center" 
+                           HorizontalAlignment="Left" 
+                           Margin="5,0,0,0"/>
+                <PasswordBox x:Name="PasswordBox" 
+                             Grid.Column="1" 
+                             Margin="45,0,0,0"
+                             HorizontalAlignment="Left"
+                             Width="250"/>
+            </Grid>
+
+            <!-- Email -->
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Email" 
+                            FontSize ="15"
+                           VerticalAlignment="Center" 
+                           HorizontalAlignment="Left" 
+                           Margin="5,0,0,0"/>
+                <TextBox x:Name="EmailTextBox" 
+                         Grid.Column="1" 
+                         Margin="72,0,0,0"
+                         HorizontalAlignment="Left"
+                         Width="250"/>
+            </Grid>
+
+            <!-- Vai trò -->
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Vai trò" 
+                            FontSize ="15"
+                           VerticalAlignment="Center" 
+                           HorizontalAlignment="Left" 
+                           Margin="5,0,0,0"/>
+                <ComboBox x:Name="RoleComboBox" 
+                          Grid.Column="1" 
+                          Margin="64,0,0,0"
+                          HorizontalAlignment="Left"
+                          Width="250">
+                   
+                </ComboBox>
+            </Grid>
+
+            <!-- Nút Lưu -->
+            <Button Content="Lưu" 
+                    Click="SaveUserButton_Click" 
+                    Background="Green" 
+                    Foreground="White" 
+                    Margin="80,20,0,0" 
+                    HorizontalAlignment="Center"
+                    Width="50"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

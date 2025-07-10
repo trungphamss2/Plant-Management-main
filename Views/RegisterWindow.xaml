@@ -1,0 +1,48 @@
+﻿<Window x:Class="PlantManagement.Views.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Register" Height="400" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <!-- Tiêu đề -->
+        <TextBlock Text="Đăng ký" FontSize="24" FontWeight="Bold" Foreground="#333" 
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" />
+
+        <!-- Form Đăng ký -->
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" >
+
+            <!-- Tên đăng nhập -->
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Tên đăng nhập:" FontWeight="Bold" Foreground="#555" />
+                <TextBox Name="UsernameTextBox" Width="280" Height="30" />
+            </StackPanel>
+
+            <!-- Họ và tên -->
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Họ và tên người dùng:" FontWeight="Bold" Foreground="#555" />
+                <TextBox Name="FullNameTextBox" Width="280" Height="30" />
+            </StackPanel>
+
+            <!-- Email -->
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Email:" FontWeight="Bold" Foreground="#555" />
+                <TextBox Name="EmailTextBox" Width="280" Height="30" />
+            </StackPanel>
+
+            <!-- Mật khẩu -->
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Mật khẩu:" FontWeight="Bold" Foreground="#555" />
+                <PasswordBox Name="PasswordBox" Width="280" Height="30" />
+            </StackPanel>
+
+            <!-- Xác nhận mật khẩu -->
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Xác nhận mật khẩu:" FontWeight="Bold" Foreground="#555" />
+                <PasswordBox Name="ConfirmPasswordBox" Width="280" Height="30" />
+            </StackPanel>
+
+            <!-- Nút đăng ký -->
+            <Button Name="RegisterButton" Content="Đăng ký" Width="120" Height="35" 
+                    HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Click="RegisterButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

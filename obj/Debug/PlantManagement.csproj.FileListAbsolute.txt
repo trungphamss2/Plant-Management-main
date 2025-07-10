@@ -1,0 +1,182 @@
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\PlantManagement.csproj.AssemblyReference.cache
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\LoginWindow.baml
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\MainWindow.baml
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\ManagePlantsWindow.baml
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\MainWindow.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\ManagePlantsWindow.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\App.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\QuanLyTrongTrotv2_MarkupCompile.cache
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\QuanLyTrongTrotv2.g.resources
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\QuanLyTrongTrotv2.Properties.Resources.resources
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\PlantManagement.csproj.GenerateResource.cache
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\PlantManagement.csproj.CoreCompileInputs.cache
+C:\Users\AD\source\repos\PlantManagement\bin\Debug\PlantManagement.exe.config
+C:\Users\AD\source\repos\PlantManagement\bin\Debug\PlantManagement.exe
+C:\Users\AD\source\repos\PlantManagement\bin\Debug\PlantManagement.pdb
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.csproj.AssemblyReference.cache
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\LoginWindow.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\MainWindow.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\MainWindow.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\App.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement_MarkupCompile.cache
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.g.resources
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.Properties.Resources.resources
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.csproj.GenerateResource.cache
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.csproj.CoreCompileInputs.cache
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.exe
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement.pdb
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\RegisterWindow.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\RegisterWindow.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\PlantManagement_Content.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyNguoiDungView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyNguoiDungView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\BaoCaoView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyDanhMucView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyLichSuView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyThongTinTaiKhoanView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\BaoCaoView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyDanhMucView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyLichSuView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyThongTinTaiKhoanView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyGiongCayTrongView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyPhanBonView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLySanXuatTrongTrotView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyThuocBaoVeView.baml
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyGiongCayTrongView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyPhanBonView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLySanXuatTrongTrotView.g.cs
+C:\Users\AD\source\repos\PlantManagement\obj\Debug\Views\QuanLyThuocBaoVeView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\bin\Debug\PlantManagement.exe.config
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\bin\Debug\PlantManagement.exe
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\bin\Debug\PlantManagement.pdb
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.csproj.AssemblyReference.cache
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\BaoCaoView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\LoginWindow.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\MainWindow.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyDanhMucView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyGiongCayTrongView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyLichSuView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyPhanBonView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLySanXuatTrongTrotView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyThuocBaoVeView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\RegisterWindow.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\BaoCaoView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\MainWindow.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyDanhMucView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyGiongCayTrongView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyLichSuView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyPhanBonView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLySanXuatTrongTrotView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyThuocBaoVeView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\RegisterWindow.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\App.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement_Content.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement_MarkupCompile.cache
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.g.resources
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.Properties.Resources.resources
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.csproj.GenerateResource.cache
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.csproj.CoreCompileInputs.cache
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.exe
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement.pdb
+<<<<<<< HEAD
+=======
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\PlantManagement_MarkupCompile.lref
+>>>>>>> 6fdf547 (QuanLyThongTinTaiKhoan)
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\App.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyThongTinTaiKhoanView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyThongTinTaiKhoanView.g.cs
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyNguoiDungView.baml
+C:\Users\AD\Desktop\PlantManagement\PlantManagement\obj\Debug\Views\QuanLyNguoiDungView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\bin\Debug\PlantManagement.exe.config
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\bin\Debug\PlantManagement.exe
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\bin\Debug\PlantManagement.pdb
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.csproj.AssemblyReference.cache
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\BaoCaoView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\LoginWindow.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\MainWindow.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyDanhMucView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyGiongCayTrongView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyLichSuView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyNguoiDungView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyPhanBonView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLySanXuatTrongTrotView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyThuocBaoVeView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\RegisterWindow.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\App.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\BaoCaoView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\MainWindow.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyDanhMucView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyGiongCayTrongView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyLichSuView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyNguoiDungView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyPhanBonView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLySanXuatTrongTrotView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyThongTinTaiKhoanView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyThuocBaoVeView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\RegisterWindow.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\App.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement_Content.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement_MarkupCompile.cache
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\QuanLyThongTinTaiKhoanView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.g.resources
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.Properties.Resources.resources
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.csproj.GenerateResource.cache
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.csproj.CoreCompileInputs.cache
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.exe
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement.pdb
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\ResetPasswordView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\ResetPasswordView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\DonViHanhChinhView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\PlantManagement_MarkupCompile.lref
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\DonViHanhChinhView.baml
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\AddUserView.g.cs
+C:\Users\AD\Desktop\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\Plant-Management-07a638d8414b7f224d525f816d8a96a3db0a58d0\obj\Debug\Views\AddUserView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\bin\Debug\PlantManagement.exe.config
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\bin\Debug\PlantManagement.exe
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\bin\Debug\PlantManagement.pdb
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.csproj.AssemblyReference.cache
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\AddUserView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\BaoCaoView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\DonViHanhChinhView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\LoginWindow.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\MainWindow.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyDanhMucView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyGiongCayTrongView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyLichSuView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyNguoiDungView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyPhanBonView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLySanXuatTrongTrotView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyThongTinTaiKhoanView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyThuocBaoVeView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\RegisterWindow.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\ResetPasswordView.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\App.baml
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\AddUserView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\BaoCaoView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\DonViHanhChinhView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\LoginWindow.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\MainWindow.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyDanhMucView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyGiongCayTrongView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyLichSuView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyNguoiDungView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyPhanBonView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLySanXuatTrongTrotView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyThongTinTaiKhoanView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\QuanLyThuocBaoVeView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\RegisterWindow.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\Views\ResetPasswordView.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\App.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement_Content.g.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement_MarkupCompile.cache
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.g.resources
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.Properties.Resources.resources
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.csproj.GenerateResource.cache
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.csproj.CoreCompileInputs.cache
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.exe
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.pdb
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\PlantManagement.exe.config

@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="PlantManagement.Views.QuanLyNguoiDungView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="LightSteelBlue">
+    <Grid>
+        <!-- Thanh trượt Quản Lý Người Dùng -->
+        <Expander x:Name="QuanLyNguoiDungExpander"
+                  Header="Quản Lý Người Dùng"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  Margin="10"
+                  Foreground="Black"
+                  Width="150"
+                  Background="LightSkyBlue"
+                  FontWeight="Bold"
+                  IsExpanded="False"
+                  Panel.ZIndex="100">
+            <StackPanel Orientation="Vertical">
+               
+                <Button x:Name="UserButton" Content="Người Dùng" Background="White" Click="ExpanderButton_Click" Margin="5"/>
+                <Button x:Name="PermissionButton" Content="Quản Lý Quyền" Background="White" Click="ExpanderButton_Click" Margin="5"/>
+                <Button x:Name="AccessHistoryButton" Content="Lịch Sử Truy Cập" Background="White" Click="ExpanderButton_Click" Margin="5"/>
+                <Button x:Name="ActionHistoryButton" Content="Lịch Sử Tác Động" Background="White" Click="ExpanderButton_Click" Margin="5"/>
+            </StackPanel>
+        </Expander>
+
+        <!-- Tìm kiếm -->
+        <StackPanel x:Name="SearchUserPanel" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,8,10,0" Visibility="Collapsed">
+            <TextBox x:Name="SearchUserTextBox" Width="300" Height="25" VerticalContentAlignment="Center" TextAlignment="Left" Margin="0" TextChanged="SearchUserBox_TextChanged"/>
+            <Button Content="Tìm kiếm" Width="100" Height="25" Margin="5,0,0,0" Background="#0078D7" Foreground="White" FontWeight="Bold" Click="SearchUserButton_Click"/>
+        </StackPanel>
+
+        <StackPanel x:Name="SearchAccessHistoryPanel" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,8,10,0" Visibility="Collapsed">
+            <TextBox x:Name="SearchAccessHistoryTextBox" Width="300" Height="25" VerticalContentAlignment="Center" TextAlignment="Left" Margin="0" TextChanged="SearchAccessHistoryBox_TextChanged"/>
+            <Button Content="Tìm kiếm" Width="100" Height="25" Margin="5,0,0,0" Background="#0078D7" Foreground="White" FontWeight="Bold" Click="SearchAccessHistoryButton_Click"/>
+        </StackPanel>
+
+        <StackPanel x:Name="SearchActionHistoryPanel" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,8,10,0" Visibility="Collapsed">
+            <TextBox x:Name="SearchActionHistoryTextBox" Width="300" Height="25" VerticalContentAlignment="Center" TextAlignment="Left" Margin="0" TextChanged="SearchActionHistoryBox_TextChanged"/>
+            <Button Content="Tìm kiếm" Width="100" Height="25" Margin="5,0,0,0" Background="#0078D7" Foreground="White" FontWeight="Bold" Click="SearchActionHistoryButton_Click"/>
+        </StackPanel>
+
+        <!-- Grid để chứa nội dung -->
+        <Grid Margin="0,40,0,0">
+            <DataGrid x:Name="UserGroupDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsReadOnly="True" Visibility="Collapsed"/>
+
+            <Grid>
+                <DataGrid x:Name="UserDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsReadOnly="False" Visibility="Collapsed"  />
+
+                <!-- Nút Cập nhật và Xóa -->
+                <StackPanel x:Name="UpdateDeleteUserPanel" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="20" Visibility="Collapsed">
+                    <Button x:Name="UpdateUserButton" Content="Cập nhật" Width="80" Height="30"  Background="#FF0B930B" Foreground="White" FontWeight="Bold" Margin="20"  Click="UpdateUserButton_Click" />
+                    <Button x:Name="DeleteUserButton" Content="Xóa" Width="60" Height="30" Background="#FFE32B2B" Foreground="White" FontWeight="Bold" Click="DeleteUserButton_Click" />
+                </StackPanel>
+
+                <StackPanel x:Name="AddNewUserPanel" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20"  Visibility="Collapsed">
+                    <Button x:Name="AddNewUserButton" Content="+ Thêm mới" Width="80" Height="30" Background="#FF008EFA" Foreground="White" FontWeight="Bold" Margin="20" Click="AddNewUserButton_Click"/>
+                </StackPanel>
+            </Grid>
+
+            <DataGrid x:Name="PermissionDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsReadOnly="True" Visibility="Collapsed"/>
+            <DataGrid x:Name="AccessHistoryDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsReadOnly="True" Visibility="Collapsed"/>
+            <DataGrid x:Name="ActionHistoryDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsReadOnly="True" Visibility="Collapsed"/>
+
+            <!-- ContentControl để hiển thị AddUserView -->
+            <ContentControl x:Name="AddUserContentControl"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            Visibility="Collapsed"
+                            />
+        </Grid>
+    </Grid>
+</UserControl>

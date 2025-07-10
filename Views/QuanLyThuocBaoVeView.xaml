@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="PlantManagement.Views.QuanLyThuocBaoVeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+mc:Ignorable="d"
+d:DesignHeight="600" d:DesignWidth="1168" Background="LightSteelBlue">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+        <Grid Margin="10">
+            <Grid x:Name="MainGrid" Visibility="Visible">
+                <StackPanel Orientation="Vertical" Margin="20">
+                    <!-- Tiêu đề -->
+                    <TextBlock Text="DANH MỤC THUỐC BẢO VỆ THỰC VẬT" FontSize="20" FontWeight="Bold" Margin="0,0,0,10" />
+
+                    <!-- Chọn danh mục -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <ComboBox x:Name="cbLoaiDanhMuc" Width="200" Margin="0,0,10,0" SelectionChanged="comboBox1_SelectedIndexChanged">
+                            <ComboBoxItem Content="Thuốc bảo vệ thực vật" />
+                            <ComboBoxItem Content="Cơ sở sản xuất" />
+                            <ComboBoxItem Content="Cơ sở buôn bán" />
+                            <ComboBoxItem Content="Bản đồ phân bổ các cơ sở" />
+                        </ComboBox>
+                        <TextBox x:Name="txtSearch" Width="200" Margin="0,0,10,0" />
+                        <Button Content="Tìm kiếm" Click="SearchButton_Click" Width="100" Margin="0,0,10,0" Background="#FF008EFA" Foreground="White" />
+                        <Button Content="Tất cả" Click="ShowAllButton_Click" Width="100" Margin="0,0,10,0" />
+                        <Button x:Name="ButtonAdd" Content="+ Thêm mới" Click="AddThuocBVTV_Click" Width="100" Background="#FF008EFA" Foreground="White" />
+                    </StackPanel>
+
+                    <!-- Bảng hiển thị -->
+                    <DataGrid x:Name="dataGridThuocBVTV" AutoGenerateColumns="False"  Height="550" Margin="0,0,0,10" Visibility="Visible" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="50" />
+                            <DataGridTextColumn Header="Tên thuốc" Binding="{Binding TenThuocBVTV}" Width="150" />
+                            <DataGridTextColumn Header="Thông tin" Binding="{Binding ThongTinThuoc}" Width="200" />
+                            <DataGridTextColumn Header="Cơ sở sản xuất" Binding="{Binding TenCoSoSanXuat}" Width="100" />
+                            <DataGridTextColumn Header="Địa chỉ" Binding="{Binding DiaChiCoSoSanXuat}" Width="150" />
+                            <DataGridTextColumn Header="Cơ sở buôn bán" Binding="{Binding TenCoSoBuonBan}" Width="150" />
+                            <DataGridTextColumn Header="Địa chỉ" Binding="{Binding DiaChiCoSoBuonBan}" Width="200" />
+                            <DataGridTemplateColumn Header="Thao tác" Width="200">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button Content="Xóa" Background="Red" Foreground="White" Margin="0,0,10,0" Click="DeleteThuocBVTVButton_Click" />
+                                            <Button Content="Cập nhật" Background="Green" Margin="0,0,10,0" Foreground="White" Click="UpdateThuocBVTVButton_Click" />
+                                            <Button Content="Lưu" Background="Blue" Foreground="White" Click="SaveThuocBVTVButton_Click"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <DataGrid x:Name="dataGridCoSoSanXuat" AutoGenerateColumns="False"  Height="300" Margin="0,0,0,10" Visibility="Collapsed">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="35" />
+                            <DataGridTextColumn Header="Cơ sở sản  xuất" Binding="{Binding TenCoSoSanXuat}" Width="100" />
+                            <DataGridTextColumn Header="Địa chỉ" Binding="{Binding DiaChiCoSoSanXuat}"  Width="200" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <DataGrid x:Name="dataGridCoSoBuonBan" AutoGenerateColumns="False"  Height="300" Margin="0,0,0,10" Visibility="Collapsed">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="35" />
+                            <DataGridTextColumn Header="Cơ sở buôn bán" Binding="{Binding TenCoSoBuonBan}" Width="200" />
+                            <DataGridTextColumn Header="Địa chỉ" Binding="{Binding DiaChiCoSoBuonBan}" Width="150" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </Grid>
+
+            <!-- Giao diện thêm mới -->
+            <Grid x:Name="AddGrid" Visibility="Collapsed">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Height="700" Margin="0,30,0,0">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="10">
+                        <TextBlock Text="Thêm mới" FontSize="23"  Margin="5,0,0,5" />
+                        <!-- Tên -->
+                        <Label Content="Tên thuốc bảo vệ thực vật" FontWeight="Bold"/>
+                        <TextBox x:Name="TenTextBox"  Height="20" Margin="5" />
+                        <!-- Thông tin-->
+                        <Label Content="Thông tin thuốc" FontWeight="Bold"/>
+                        <TextBox x:Name="ThongTinTextBox" Margin="5" Height="18" />
+                        <!-- Cơ sở sản xuất -->
+
+                        <Label Content="Cơ sở sản xuất" FontWeight="Bold"/>
+                        <Label Content="Tên cơ sở sản xuất" FontSize="10" FontStyle="Italic" FontWeight="DemiBold" />
+                        <TextBox x:Name="CSSXTextBox" Margin="5" Height="18" />
+                        <Label Content="Địa chỉ" FontSize="10" FontStyle="Italic" FontWeight="DemiBold" />
+                        <TextBox x:Name="DCCSSXTextBox" Margin="5" Height="18" />
+
+
+                        <!-- Cơ sở buôn bán  -->
+                        <Label Content="Cơ sở buôn bán" FontWeight="Bold"/>
+                        <Label Content="Tên cơ sở buôn bán" FontSize="10" FontStyle="Italic" FontWeight="DemiBold" />
+                        <TextBox x:Name="CSBBTextBox" Margin="5" Height="18"/>
+                        <Label Content="Địa chỉ" FontSize="10" FontStyle="Italic" FontWeight="DemiBold" />
+                        <TextBox x:Name="DCCSBBTextBox" Margin="5" Height="18" />
+                        <!-- Các nút Save và Cancel -->
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+                            <Button x:Name="SaveButton" Width="80" Margin="5" Content="THÊM" Background="#00CED1" Click="SaveButton_Click"/>
+                            <Button x:Name="CancelButton" Width="80" Margin="5" Content="Trở lại" Background="#FFFFFF" Click="CancelButton_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

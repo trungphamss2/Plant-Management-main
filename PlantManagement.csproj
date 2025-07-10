@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF98B68B-AB6A-45F3-AE3F-9289BCFB589E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PlantManagement</RootNamespace>
+    <AssemblyName>PlantManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controllers\AddUserController.cs" />
+    <Compile Include="Controllers\BaoCaoController.cs" />
+    <Compile Include="Controllers\DonViHanhChinhController.cs" />
+    <Compile Include="Controllers\GiongCayTrongController.cs" />
+    <Compile Include="Controllers\QuanLyPhanBonController.cs" />
+    <Compile Include="Controllers\QuanLySanXuatTrongTrotController.cs" />
+    <Compile Include="Controllers\QuanLyThongTinTaiKhoanController.cs" />
+    <Compile Include="Controllers\RegisterController.cs">
+      <Generator>MSBuild:Compile</Generator>
+    </Compile>
+    <Compile Include="Controllers\ResetPasswordController.cs" />
+    <Compile Include="Controllers\RoleController.cs" />
+    <Compile Include="Controllers\ThuocBaoVeThucVatController.cs" />
+    <Compile Include="Controllers\UserInfoController.cs" />
+    <Compile Include="Helpers\DatabaseHelper.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Helpers\UserSection.cs" />
+    <Compile Include="Models\Cap.cs" />
+    <Compile Include="Models\CoSoBuonBan.cs" />
+    <Compile Include="Models\CoSoSanXuat.cs" />
+    <Compile Include="Models\Database.cs" />
+    <Compile Include="Models\DonViHanhChinh.cs" />
+    <Compile Include="Models\GiongCayTrong.cs" />
+    <Compile Include="Models\GiongCay_LuuHanh.cs" />
+    <Compile Include="Models\LoginHistory.cs" />
+    <Compile Include="Models\Permission.cs" />
+    <Compile Include="Models\PhanBon.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\Role_Permission.cs" />
+    <Compile Include="Models\SinhVatGayHai.cs" />
+    <Compile Include="Models\SXTT.cs" />
+    <Compile Include="Models\ThuocBVTV.cs" />
+    <Compile Include="Models\TongHopData.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\VuonCayDauDong.cs" />
+    <Compile Include="Views\AddUserView.xaml.cs">
+      <DependentUpon>AddUserView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BaoCaoView.xaml.cs">
+      <DependentUpon>BaoCaoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DonViHanhChinhView.xaml.cs">
+      <DependentUpon>DonViHanhChinhView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyDanhMucView.xaml.cs">
+      <DependentUpon>QuanLyDanhMucView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyGiongCayTrongView.xaml.cs">
+      <DependentUpon>QuanLyGiongCayTrongView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyLichSuView.xaml.cs">
+      <DependentUpon>QuanLyLichSuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyNguoiDungView.xaml.cs">
+      <DependentUpon>QuanLyNguoiDungView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyPhanBonView.xaml.cs">
+      <DependentUpon>QuanLyPhanBonView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLySanXuatTrongTrotView.xaml.cs">
+      <DependentUpon>QuanLySanXuatTrongTrotView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyThongTinTaiKhoanView.xaml.cs">
+      <DependentUpon>QuanLyThongTinTaiKhoanView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyThuocBaoVeView.xaml.cs">
+      <DependentUpon>QuanLyThuocBaoVeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegisterWindow.xaml.cs">
+      <DependentUpon>RegisterWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ResetPasswordView.xaml.cs">
+      <DependentUpon>ResetPasswordView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\AddUserView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BaoCaoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DonViHanhChinhView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Views\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\QuanLyDanhMucView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLyGiongCayTrongView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLyLichSuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLyNguoiDungView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLyPhanBonView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLySanXuatTrongTrotView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLyThongTinTaiKhoanView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\QuanLyThuocBaoVeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ResetPasswordView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Resource Include="Images\PlantManagement1.png" />
+    <Resource Include="Images\PlantManagement.png" />
+    <Resource Include="Images\8b8e48820cecb0b2e9fd.jpg" />
+    <Resource Include="Images\logo-removebg-preview.png" />
+    <Resource Include="Images\thontin.png" />
+    <Resource Include="Images\pngtree-icon-location-png-image_4386689-removebg-preview.png" />
+    <Resource Include="Images\cropped-logo-vingarden-removebg-preview.png" />
+    <Resource Include="Images\istockphoto-1200064755-612x612-removebg-preview.png" />
+    <Resource Include="Images\8fe930e6-9048-47c8-b398-6fb9825796a4-removebg-preview.png" />
+    <Resource Include="Images\31c8f5c5-ab91-484b-9d7c-d28f05c1eb59-removebg-preview.png" />
+    <Resource Include="Images\e7b4e0df-bbe4-43b4-afdd-6ef572b538b5-removebg-preview.png" />
+    <Resource Include="Images\d33e7af2-d3ff-4313-a0b4-dd9ae9e9d7e7-removebg-preview.png" />
+    <Resource Include="Images\855d3b8c-a1f4-47c0-bd32-1390330186ed-removebg-preview.png" />
+    <Resource Include="Images\e5e2b72b-e0f0-4547-b973-33c8207b0d88-removebg-preview %281%29.png" />
+    <Resource Include="Images\9bfecbae-f085-4a77-b408-e0c68a3ac55c-removebg-preview %281%29.png" />
+    <Resource Include="Images\57866269-2bd8-4869-bf57-c06cafaf6df7-removebg-preview %281%29.png" />
+    <Resource Include="Images\pngtree-back-icon-arrow-photo-png-image_13614689-removebg-preview.png" />
+    <Resource Include="Images\realmadrid.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

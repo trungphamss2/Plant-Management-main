@@ -1,0 +1,13 @@
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\PlanManagement.csproj.AssemblyReference.cache
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\LoginWindow.baml
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\MainWindow.baml
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\ManagePlantsWindow.baml
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\MainWindow.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\Views\ManagePlantsWindow.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\App.g.cs
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\QuanLyTrongTrotv2_MarkupCompile.cache
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\QuanLyTrongTrotv2.g.resources
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\QuanLyTrongTrotv2.Properties.Resources.resources
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\PlanManagement.csproj.GenerateResource.cache
+C:\Users\AD\source\repos\QuanLyTrongTrotv2\obj\Debug\PlanManagement.csproj.CoreCompileInputs.cache

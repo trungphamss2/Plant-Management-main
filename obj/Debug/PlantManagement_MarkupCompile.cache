@@ -1,0 +1,20 @@
+﻿PlantManagement
+
+
+winexe
+C#
+.cs
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\obj\Debug\
+PlantManagement
+none
+false
+DEBUG;TRACE
+D:\Downloads\Plant-Management-main (2)\Plant-Management-main\App.xaml
+151378352501
+1-600760770
+54-434063984
+151937372271
+Views\AddUserView.xaml;Views\BaoCaoView.xaml;Views\DonViHanhChinhView.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;Views\QuanLyDanhMucView.xaml;Views\QuanLyGiongCayTrongView.xaml;Views\QuanLyLichSuView.xaml;Views\QuanLyNguoiDungView.xaml;Views\QuanLyPhanBonView.xaml;Views\QuanLySanXuatTrongTrotView.xaml;Views\QuanLyThongTinTaiKhoanView.xaml;Views\QuanLyThuocBaoVeView.xaml;Views\RegisterWindow.xaml;Views\ResetPasswordView.xaml;
+
+False
+

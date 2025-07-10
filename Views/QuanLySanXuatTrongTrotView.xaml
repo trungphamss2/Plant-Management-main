@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="PlantManagement.Views.QuanLySanXuatTrongTrotView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="600" d:DesignWidth="1168" Background="Black">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+        <!-- Nội dung cho phần đầu tiên -->
+        <Grid Grid.Row="0" Background="LightSteelBlue" Margin="0,0,0,400" Grid.RowSpan="2">
+
+            <TextBlock Text="Sản xuất trồng trọt" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="300,0,0,0" FontSize="30" FontWeight="Medium" Height="40" />
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,10,70,0" Width="320">
+                <TextBox x:Name="SearchTextBox" Height="20" Width="200" Margin="0,0,0,0" VerticalAlignment="Center" KeyDown="SearchTextBox_KeyDown" />
+                <Button Content="Tìm kiếm"  Background="#FF008EFA" Foreground="White"  VerticalAlignment="Center" Width="100"  FontWeight="Medium" Margin="0,0,0,0" Click="SearchButton_Click" />
+            </StackPanel>
+
+            <!-- Move the "Thêm mới" button below the search area, on the bottom-right -->
+            <Button Content="+Thêm mới" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Width="120"  Foreground="White" Background="#FF008EFA" FontWeight="Medium" Click="AddNewButton_Click" />
+           
+            <!-- Thêm StackPanel cho các mục lựa chọn, ẩn mặc định -->
+            <StackPanel Name="SearchOptions" Visibility="Collapsed" Margin="540,42,0,0">
+
+            </StackPanel>
+
+        </Grid>
+
+        <!-- Nội dung cho phần thứ hai -->
+        <Grid Grid.Row="1" Background="White">
+            <!-- Khu vực bảng dữ liệu -->
+            <Grid Name="DataGridSection" Visibility="Visible">
+                <DataGrid Name="DataGridSXTT" AutoGenerateColumns="False" IsReadOnly="True" Margin="0,-100,0,0" SelectionChanged="DataGridSXTT_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Cơ Sở" Binding="{Binding CoSo}" Width="200"/>
+                        <DataGridTextColumn Header="Sản Phẩm" Binding="{Binding SanPham}" Width="80"/>
+                        <DataGridTextColumn Header="An Toàn VietGap" Binding="{Binding CSAnToanVietGap}" Width="100"/>
+                        <DataGridTextColumn Header="Vùng Trồng" Binding="{Binding ViTri}" Width="120"/>
+                        <DataGridTextColumn Header="Sinh Vật Gây Hại" Binding="{Binding SinhVatGayHai}" Width="120"/>
+                        <DataGridTemplateColumn Header="Thao tác" Width="170">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <Button Content="Chỉnh sửa" Click="EditButton_Click" Width="80" Height="25" Tag="{Binding ID}" Margin="0 0 5 0" Foreground="White" Background="#FF0B930B"  />
+                                        <Button Content="Xóa" Click="DeleteButton_Click" Width="80" Height="25" Tag="{Binding ID}" Margin="5,0,0,0" Foreground="White" Background="#FFE32B2B" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                    <DataGrid.RowStyle>
+                        <Style TargetType="DataGridRow">
+                            <Setter Property="Height" Value="40"/>
+                        </Style>
+                    </DataGrid.RowStyle>
+                    <DataGrid.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="FontSize" Value="16"/>
+                            <Setter Property="Padding" Value="10"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGrid.CellStyle>
+                </DataGrid>
+            </Grid>
+
+            <!-- Khu vực form thêm mới -->
+            <Border Name="AddNewForm" Visibility="Collapsed" Background="LightSeaGreen" Margin="0,-110,0,0" Padding="0" CornerRadius="0">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="400">
+
+                    <TextBlock Text="Thêm thông tin" FontSize="18" Width="200" FontWeight="Bold" Margin="0,20,0,10" HorizontalAlignment="Center" />
+                    <!-- Cơ sở -->
+                    <StackPanel Orientation="Vertical" Margin="0,0,0,0">
+                        <TextBlock Text="Cơ sở:" />
+                        <TextBox Name="CoSoTextBox" Width="300" />
+                    </StackPanel>
+
+                    <!-- Đủ điều kiện an toàn VietGAP -->
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,10">
+                        <TextBlock Text="Đủ điều kiện an toàn VietGAP:" Width="200" VerticalAlignment="Center" />
+                        <CheckBox Name="VietGAPCheckBox" Content="có" Margin="0,0,10,0" />
+                        <CheckBox Name="NotVietGAPCheckBox" Content=" không" />
+                    </StackPanel>
+
+                    <!-- Tên sản phẩm -->
+                    <StackPanel Orientation="Vertical" Margin="0,10,0,10">
+                        <TextBlock Text="Tên sản phẩm:" />
+                        <TextBox Name="SanPhamTextBox" Width="300" Margin="0,5,0,0" />
+                    </StackPanel>
+
+                    <!-- Tên vùng trồng -->
+                    <StackPanel Orientation="Vertical" Margin="0,10,0,10">
+                        <TextBlock Text="Tên vùng trồng:" />
+                        <TextBox Name="VungTrongTextBox" Width="300" Margin="0,5,0,0" />
+                    </StackPanel>
+
+                    <!-- Tên sinh vật gây hại -->
+                    <StackPanel Orientation="Vertical" Margin="0,10,0,0">
+                        <TextBlock Text="Tên sinh vật gây hại:" />
+                        <TextBox Name="SinhVatGayHaiTextBox" Width="300"  Margin="0,5,0,0" />
+                    </StackPanel>
+
+                    <!-- Nút Lưu và Hủy -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                        <Button Content="Lưu" Width="100" Margin="10" Click="SaveButton_Click" />
+                        <Button Content="Hủy" Width="100" Margin="10" Click="CancelButton_Click" />
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+    </Grid>
+
+</UserControl>
